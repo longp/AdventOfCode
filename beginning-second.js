@@ -12,10 +12,9 @@ for (i=0; i<input.length; i++) {
   }
  
 
-
+if (counter < 0) {
+ alert(i+1);
+ break; 
  
-  
-  
-   
 }
- alert(counter);
+}
